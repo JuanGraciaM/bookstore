@@ -1,9 +1,9 @@
 import './ItemListContainer.css'
 
-function ItemListContainer () {
+function ItemListContainer (props) {
     return (
         <section className="cuerpo">
-            <h2>Libros para todo gusto. Proximamante!</h2>
+            <h2>{props.greeting}</h2>
         </section>
     );
 }
